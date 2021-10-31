@@ -1,6 +1,6 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
-const port = 4000;
+const port = process.env.PORT || 4000;
 const cors = require('cors');
 const app = express();
 
